@@ -668,7 +668,7 @@ img {
   display: flex;
   margin-bottom: 20px;
   font-weight: bold;
-  line-height: 0.87;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
@@ -737,4 +737,61 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   background: #ffffff;
+}
+/*форма*/
+
+.form-footer-block {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: start;
+  width: 570px;
+  height: 86px;
+  margin-left: auto;
+}
+.form-footer {
+  display: flex;
+  position: relative;
+}
+
+.form-btn {
+  display: block;
+  padding: 10px 62px 10px 29px;
+  border-radius: 4px;
+  border: none;
+  width: 200px;
+  height: 50px;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--second-text-color);
+  background-color: var(--second-background-color);
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: background-color var(--time) var(--cubic);
+}
+.form-btn:hover,
+.form-btn:focus {
+  background-color: var(--hover-color);
+}
+.form-input {
+  padding: 16px;
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: transparent;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  margin-right: 12px;
+}
+.form-footer-icon {
+  fill: var(--second-text-color);
+  position: absolute;
+  top: 10px;
+  right: 28px;
+  width: 24px;
+  height: 24px;
 }
