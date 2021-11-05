@@ -325,7 +325,7 @@
         </address>
       </div>
       <div class="footer-right">
-        <h3 class="footer-title">присоединяйтесь</h3>
+        <p class="footer-title">присоединяйтесь</p>
         <ul class="footer-cocial-media-list list ">
           <li class=" footer-cocial-item cocial-media-item"> <a class="cocial-link" href=""><svg
                 class="cocial-media-icon footer-icon">
@@ -346,7 +346,7 @@
         </ul>  </div>
         <!--Форма-->
       <div class="form-footer-block">
-        <h3 class="footer-title">Подпишитесь на рассылку</h3>
+        <p class="footer-title">Подпишитесь на рассылку</p>
       <form class="form-footer">
       
         <label class="form-label"><input class="form-input" type="email" name="mail" placeholder="Email"></label>
@@ -367,7 +367,40 @@
           height="18">
           <use href="./images/symbol-defs.svg#icon-close"></use>
         </svg></button>
-       
+        <!--фозма модального окна-->
+       <form class="modal-form">
+         <p class="modal-form-title">Оставьте свои данные, мы вам перезвоним</p>
+
+         <label class="modal-form-field">Имя
+           <span class="modal-form-block">
+           <input class="modal-form-input" type="text" name="user-name">
+          <svg class=" modal-form-icon" width="18" height="18">
+            <use href="./images/symbol-defs.svg#icon-person-black"></use>
+          </svg></span>
+
+         </label>
+
+        <label class="modal-form-field"> Телефон
+          <span class="modal-form-block">
+          <input class="modal-form-input" type="tel" name="user-tel">
+          <svg class="modal-form-icon" width="18" height="18">
+            <use href="./images/symbol-defs.svg#icon-phone-black"></use>
+          </svg></span>
+        </label>
+
+        <label class="modal-form-field">Почта
+          <span class="modal-form-block">
+          <input class="modal-form-input" type="email" name="user-mail"><svg class=" modal-form-icon" width="18" height="18">
+            <use href="./images/symbol-defs.svg#icon-email-black"></use>
+          </svg></span>
+
+        </label>
+
+        <label class="modal-form-field">Комментарий
+          <textarea class="modal-form-massage" type="text" name="user-massage" placeholder="Введите текст"></textarea>
+        </label>
+        <button class="modal-form-btn" type="submit">Отправить</button>
+       </form>
     </div>
   </div>
   <!--Скрипты-->
