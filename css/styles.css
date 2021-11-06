@@ -630,14 +630,9 @@ img {
 }
 
 .footer-right {
-  display: flex;
-  flex-wrap: wrap;
   width: 260px;
-  height: 80px;
 }
 .footer-left {
-  display: flex;
-  flex-wrap: wrap;
   width: 231px;
 }
 .footer-title {
@@ -868,8 +863,6 @@ img {
 /*форма*/
 
 .form-footer-block {
-  display: flex;
-  flex-wrap: wrap;
   width: 570px;
   height: 86px;
 }
