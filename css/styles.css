@@ -142,7 +142,7 @@ img {
   color: var(--header-color);
   position: relative;
   transition: color var(--time) var(--cubic);
-  padding-bottom: 28px;
+  padding-bottom: 32px;
 }
 .menu-link.current::after {
   position: absolute;
@@ -596,6 +596,7 @@ img {
 .footer-flex {
   display: flex;
   align-items: baseline;
+  justify-content: space-between;
 }
 
 .footer-logo {
@@ -630,8 +631,6 @@ img {
 
 .footer-right {
   display: flex;
-  align-items: center;
-  justify-content: start;
   flex-wrap: wrap;
   width: 260px;
   height: 80px;
@@ -640,7 +639,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   width: 231px;
-  margin-right: 70px;
 }
 .footer-title {
   margin-bottom: 20px;
@@ -688,7 +686,6 @@ img {
 .modal {
   position: absolute;
   min-width: 528px;
-  min-height: 581px;
   left: 50%;
   top: 50%;
   padding: 40px;
@@ -743,10 +740,14 @@ img {
   color: var(--third-text-color);
 }
 .modal-form-field {
+  margin-bottom: 10px;
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
   color: var(--primary-text-color);
+}
+.margine-massage {
+  margin-bottom: 20px;
 }
 .modal-form-input {
   padding-left: 42px;
@@ -765,7 +766,6 @@ img {
   position: relative;
   color: var(--primary-title-color);
   height: 40px;
-  margin-bottom: 10px;
   margin-top: 4px;
 }
 
@@ -812,7 +812,6 @@ img {
 
 .modal-form-massage {
   margin-top: 4px;
-  margin-bottom: 20px;
   padding: 12px 16px;
   width: 100%;
   height: 120px;
@@ -852,10 +851,12 @@ img {
   height: 15px;
   margin-right: 7px;
   border: 1px solid #212121;
+  border-radius: 4px;
   background-color: var(--main-background-color);
   background-image: url(../images/svg/Vector.svg);
-  border-image-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   cursor: pointer;
   transition: background-image var(--time) var(--cubic), border-color var(--time) var(--cubic);
 }
@@ -869,21 +870,21 @@ img {
 
 .form-footer-block {
   display: flex;
-  align-content: center;
   flex-wrap: wrap;
-  justify-content: start;
   width: 570px;
   height: 86px;
-  margin-left: auto;
 }
 .form-footer {
   display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .form-btn {
   position: relative;
   display: block;
   padding: 10px 62px 10px 29px;
+  margin-left: 12px;
   border-radius: 4px;
   border: none;
   width: 200px;
@@ -905,16 +906,18 @@ img {
 .modal-form-btn:hover {
   background-color: var(--hover-color);
 }
+.form-label {
+  width: 100%;
+}
 .form-input {
   padding: 16px;
-  width: 358px;
+  width: 100%;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   background-color: transparent;
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  margin-right: 12px;
   cursor: pointer;
 }
 .form-footer-icon {
