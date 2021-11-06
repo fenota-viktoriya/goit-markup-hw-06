@@ -775,7 +775,6 @@ img {
 .modal-form-massage:hover {
   outline: none;
   border-color: var(--accent-text-color);
-  fill: var(--accent-text-color);
 }
 .modal-form-input:hover + .modal-form-icon,
 .modal-form-input:focus + .modal-form-icon {
